@@ -2,9 +2,9 @@ function dwarfRollCall(dwarves) {
   
   var array = [];
   
-  for(let i = 0; i < array.length; i++){
+  for(let i = 0; i < dwarves.length; i++){
     
-    array.push(`${i + 1}. ${array[i]}`);
+    array.push(`${i + 1}. ${dwarves[i]}`);
   }
   return `${array}`;
 }
